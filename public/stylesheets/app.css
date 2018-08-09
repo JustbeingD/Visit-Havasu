@@ -1,0 +1,100 @@
+/* home header css */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+} 
+
+/* end of home header */
+
+#lp-bg{
+	background-image: url("https://images.unsplash.com/photo-1527215790600-aa5ec6706a50?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e2f5db8db691230eb1cf40a31aededa2&auto=format&fit=crop&w=1350&q=80");
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+html{
+	height: 100%;
+}
+
+#content {
+	text-align: center;
+	padding-top: 10%;
+	text-shadow:	0px 4px 3px rgba(0,0,0,0.4),
+					0px 8px 13px rgba(0,0,0,0.1),
+					0px 18px 23px rgba(0,0,0,0.1);
+}
+#content h1 {
+	font-family: 'Mr De Haviland', cursive;
+	font-weight: 400;
+	font-size: 12em;
+	margin: 0;
+}
+
+#content h2{
+	
+	font-weight: 400;
+	font-size: 4em;
+	margin: 0;
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2)
+}
+
+.landing-btn{
+	font-size: 15px;
+    border-radius: 16px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: #fefdfd;
+    padding: 7px 15px;
+    text-transform: uppercase;
+}
+
+.landing-btn:hover{
+	background: pink;
+	color: black;
+}
+
+/* end of landing page css */
+
+#hp-bg{
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+
+#section-home{
+	padding-top: 53px;
+}
+.contents{
+	width: 600px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
