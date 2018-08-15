@@ -1,12 +1,44 @@
 <% include ./partials/homeheader %>
 
 <div id="section-home">
+	<div class="weather-container">
+		<a class="weatherwidget-io" href="https://forecast7.com/en/34d48n114d32/lake-havasu-city/?unit=us" data-label_1="LAKE HAVASU CITY" data-label_2="WEATHER" data-font="Palatino" data-icons="Climacons Animated" data-mode="Current" data-theme="desert" data-basecolor="" >LAKE HAVASU CITY WEATHER</a>
+	</div>
 	<div class="container"> 
 		<div class="comments-home">
 			<h1>havasu falls</h1>
 			<hr>
 			<p>The blue-green waterfalls of Havasu Canyon are among Mother Nature's greatest works. Havasu is one of four major waterfalls in the heart of the Havasupai Tribe's homeland. Navajo, Mooney, and Beaver Falls are also located in this beautiful canyon, each with their own unique qualities. Although located within the Grand Canyon, this picturesque desert oasis is not in Grand Canyon National Park, but rather on the Havasupai Reservation. </p>
 		</div>
+	</div>
+</div>
+<div id="section-gallery">
+	<div class="container">
+		<div class="fallSlides">
+			<img src="/images/img_1445.jpg" style="width: 100%">
+		</div>
+		<div class="fallSlides">
+			<img src="/images/img_1442.jpg" style="width: 100%">
+		</div>
+		<div class="fallSlides">
+			<img src="/images/img_1443.jpg" style="width: 100%">
+		</div>
+		<div class="fallSlides">
+			<img src="/images/img_1455.jpg" style="width: 100%">
+		</div>
+		<div class="fallSlides">
+			<img src="/images/img_1444.jpg" style="width: 100%">
+		</div>
+	</div>
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	<br>
+	<div style="text-align: center">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+		<span class="dot" onclick="currentSlide(4)"></span>
+		<span class="dot" onclick="currentSlide(5)"></span>
 	</div>
 </div>
 
