@@ -98,7 +98,7 @@ hr{
 	padding: 0;
 }
 
-#section-home{
+#section-home .bg{
 	background-image: url("https://images.unsplash.com/photo-1518114635666-fd9f62060bf3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de7eeee88476b4234bd187596ad8d71e&auto=format&fit=crop&w=1950&q=80");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -106,6 +106,7 @@ hr{
 	height: 700px;
 	padding-top: 53px;
 }
+
 .container{
 	width: 800px;
 	text-align: center;
@@ -114,8 +115,12 @@ hr{
 }
 
 .comments-home {
+	position: absolute;
+	top: 23%;
+	left: 50%;
 	padding-top: 200px;
 	color: white;
+	transform: translate3d(-50%, -50%, 0);
 }
 .comments-home h2 {
     margin: -25px;
@@ -136,10 +141,11 @@ hr{
 }
 
 .weather-container{
+	position: absolute;
+	top: 15%;
+	left: 83%;
 	width: 243px;
-    float: right;
-    margin-top: 100px;
-    padding-right: 30px;
+    float: right; 
 }
 /* end of home section */
 /* start of about section */
