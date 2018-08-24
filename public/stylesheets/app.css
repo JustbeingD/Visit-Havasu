@@ -101,6 +101,7 @@ hr{
 #section-home {
 	max-width: 100%;
 	overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #section-home .bg{
 	background-image: url("https://images.unsplash.com/photo-1518114635666-fd9f62060bf3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de7eeee88476b4234bd187596ad8d71e&auto=format&fit=crop&w=1950&q=80");
@@ -155,8 +156,9 @@ hr{
 /* start of about section */
 #section-about{
 	width: 100%;
-	height: 600px;
+	height: 700px;
 	padding: 65px 0 50px 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .about-comments{
 	float: right;
@@ -168,6 +170,7 @@ hr{
 	line-height: 1.75;
 	font-weight: 600;
 	margin: 0 0 .5rem;
+	font-size: xx-large;
 }
 .about-comments p {
 	font-family: 'Dosis', sans-serif;
@@ -189,6 +192,7 @@ hr{
 	width: 100%;
 	height: 1125px;
 	padding-top: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .gallery-comments h2 {
@@ -197,7 +201,7 @@ hr{
     font-size: 40px;
     color: white;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
-    padding: 0 0 35px 0;
+    padding: 35px 0 50px 0;
 }
 figure img{
 	width: 125%;
@@ -234,10 +238,11 @@ figure:hover+span {
 /* end of gallery section */
 /* start of things to do section */
 #section-thingsToDo{
-	background-color: darkgray;
+	background-color: #725b38;
 	width: 100%;
-	height: 650px;
+	height: 815px;
 	padding-top: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .thingsToDo img {
 	border: 2px solid white;
@@ -253,19 +258,22 @@ figure:hover+span {
     font-size: 40px;
     color: white;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
-    padding: 0 0 35px 0;
+    padding: 35px 0 50px 0;
 }
-.thingsToDo h5, p{
+.thingsToDo h5, .thingsToDo p{
 	font-family: 'Dosis', sans-serif;
 	text-align: left;
 	margin: 10px;
-	text-indent: 5px
-
 }
-
-.clearfix {
-	overflow: auto;
-	text-align: justify;
+.thingsToDo h5 {
+	font-weight: 600;
+	font-size: 22px;
+	color: orange;
+}
+.thingsToDo p {
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 17px;
 }
 .thingsToDo-column-left {
 	float: left; 
