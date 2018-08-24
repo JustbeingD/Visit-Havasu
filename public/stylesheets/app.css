@@ -98,6 +98,10 @@ hr{
 	padding: 0;
 }
 
+#section-home {
+	max-width: 100%;
+	overflow: hidden;
+}
 #section-home .bg{
 	background-image: url("https://images.unsplash.com/photo-1518114635666-fd9f62060bf3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de7eeee88476b4234bd187596ad8d71e&auto=format&fit=crop&w=1950&q=80");
 	background-size: 100% 100%;
@@ -108,7 +112,7 @@ hr{
 }
 
 .container{
-	width: 800px;
+	width: 900px;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
@@ -151,7 +155,7 @@ hr{
 /* start of about section */
 #section-about{
 	width: 100%;
-	height: 700px;
+	height: 600px;
 	padding: 65px 0 50px 0;
 }
 .about-comments{
@@ -175,26 +179,25 @@ hr{
     float: left;
     width: 30%;
     height: 500px;
-    padding-right: 35px;
-    margin-top: 40px;
+	margin-top: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* end of about section */
 /* start of gallery section */
 #section-gallery{
 	background-color: #C3AA94;
 	width: 100%;
-	height: 1050px;
-	padding-top: 70px;
+	height: 1125px;
+	padding-top: 30px;
 }
 
 .gallery-comments h2 {
 	font-family: 'Dosis', sans-serif;
-	font-weight: 600;
-	font-size: 40px;
-	color: white;
-	text-shadow:	0px 4px 3px rgba(0,0,0,0.4),
-	0px 8px 13px rgba(0,0,0,0.1),
-	0px 18px 23px rgba(0,0,0,0.1);
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+    padding: 0 0 35px 0;
 }
 figure img{
 	width: 125%;
@@ -228,3 +231,51 @@ figure:hover+span {
 	-webkit-transform: rotate(0) scale(1);
 	transform: rotate(0) scale(1);
 }
+/* end of gallery section */
+/* start of things to do section */
+#section-thingsToDo{
+	background-color: darkgray;
+	width: 100%;
+	height: 650px;
+	padding-top: 30px;
+}
+.thingsToDo img {
+	border: 2px solid white;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 1em;
+}
+.thingsToDo h2 {
+	font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+    padding: 0 0 35px 0;
+}
+.thingsToDo h5, p{
+	font-family: 'Dosis', sans-serif;
+	text-align: left;
+	margin: 10px;
+	text-indent: 5px
+
+}
+
+.clearfix {
+	overflow: auto;
+	text-align: justify;
+}
+.thingsToDo-column-left {
+	float: left; 
+	width: 50%;
+	padding: 0 0 50px 0;
+	
+}
+.thingsToDo-column-right{
+	float: right;
+	width: 50%;
+	padding: 0 0 50px 0;
+}
+/* end of things to do section */
