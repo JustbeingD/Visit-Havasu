@@ -113,7 +113,7 @@ hr{
 }
 
 .container{
-	width: 900px;
+	width: 1200px;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
@@ -291,12 +291,12 @@ figure:hover+span {
 /* start of past section */
 #section-past{
 	width: 100%;
-	height: 700px;
+	height: 925px;
 	padding-top: 53px;
 	position: relative;	
 }
-#section-past .container{
-	position: absolute;
+#section-past .past-contents{
+	position: relative;
 	z-index:998;
 	text-align: center;
 	width: 100%;
@@ -333,6 +333,110 @@ figure:hover+span {
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
 	padding: 10px 0 50px 0;
 }
+.past-column {
+	width: 33.33%;
+	float: left;
+	padding-top: 90px;
+}
+.past-wrapper{
+	background-color: hsla(0,0%,100%,.8);
+	width: 95%;
+	height: 550px;
+}
+/* .past-picture{
+	overflow: hidden;
+	width: 150px;
+	height: 150px;
+	position: relative;
+	border: 6px solid hsla(0,0%,100%,.8);
+	margin: 0;
+	
+} */
+/* .past-picture{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 150px;
+	height: 150px;
+	position: 50px 150px;
+} */
+.pic-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    top: 195px;
+    right: 925px;
+}
+.pic-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    top: 195px;
+    right: 525px;
+}
+.pic-3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    /* width: 175px;
+    height: 175px; */
+    top: 195px;
+    right: 125px;
+}
+.past-picture img {
+	width: 175px;
+	height: 175px;
+	align-items: center;
+	border: 5px solid hsla(0,0%,100%,.8);
+}
 
+.exp-comments {
+	font-family: 'Dosis', sans-serif;
+	padding: 110px 0 10px 0;
+	text-align: center;
+	
+}
+
+.exp-comments h4 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+	padding: 10px 0 10px 0;
+}
+
+.exp-comments h5 {
+	font-family: 'Doris', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	color: sandybrown;
+	text-transform: capitalize;
+}
+
+.exp-comments p {
+	font-family: 'Doris', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.65;
+    margin: 1rem;
+}
 /* end of past section */
+
+/* footer */
+
+footer{
+	background-color: lightsalmon;
+	height: 70px;
+	color: white;
+	text-align: center;
+	padding: 1.5rem 0;
+}
+
 
