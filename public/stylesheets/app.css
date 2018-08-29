@@ -59,13 +59,25 @@ html{
 	font-weight: 400;
 	font-size: 12em;
 	margin: 0;
+	position: relative;
+	animation: heading;
+	animation-duration: 4s;
 }
-
+@keyframes heading {
+	0%		{left: -2000px;}
+	100%	{left: 0px;}
+}
 #content h2{
-	
 	font-weight: 400;
 	font-size: 4em;
 	margin: 0;
+	position: relative;
+	animation: heading-top;
+	animation-duration: 3s;
+}
+@keyframes heading-top {
+	0%		{top: -500px;}
+	100%	{top: 0px;}
 }
 
 hr{
@@ -74,17 +86,33 @@ hr{
 	border-bottom: 1px solid rgba(0,0,0,0.2)
 }
 
+
 .landing-btn{
+	display:inline-block;
 	font-size: 15px;
-    border-radius: 16px;
+    border-radius: 2rem;
     border: 2px solid white;
     text-decoration: none;
     color: #fefdfd;
-    padding: 7px 15px;
-    text-transform: uppercase;
+    padding: 1rem 1rem;
+	text-transform: uppercase;
+	opacity: 0;
+	animation-name: btn;
+	animation-duration: 4s;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+
+	transition-property: transform;
+	transition-duration: 1s;
+}
+
+@keyframes btn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
 }
 
 .landing-btn:hover{
+	transform: rotateY(180deg);
 	background: pink;
 	color: black;
 }
