@@ -1,5 +1,5 @@
 <div>
-<footer>
+<footer class="hp-footer">
   <div class="container">
 	  <p>Copyright &copy 2018 Visit Havasu Falls. All Rights Reserved.</p>
   </div>
@@ -37,5 +37,23 @@ $(window).on('mousemove click', function(e) {
   lFollowY = (10 * lMouseY) / 100;
 });
 moveBackground();
+
+$('.cf a').on('click', function(event) {
+  if (this.hash !== '') {
+    event.preventDefault();
+
+    const hash = this.hash;
+
+    $('html, body').animate(
+      {
+        scrollTop: $(hash).offset().top 
+      },
+      800,
+      function() {
+        window.location.hash = hash;
+      }
+    );
+  }
+});
 </script>
 </html>
